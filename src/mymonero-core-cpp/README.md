@@ -97,7 +97,7 @@ If you want to embed the C++ or build the source in your own project, please tak
 
 * The Monero source, a slightly modified version of which is a dep of this project, can only be built on versions of iOS >= 9 due to required support for `thread_local` as used by `threadpool.cpp`.
 
-* Not all Monero `.cpp` files which are in `monero-core-custom` must be included for `mymonero-core-cpp` - such as when their symbols are not required by any code called by this project. See `CMakeLists.txt` for a list of files required for compilation.
+* Not all Monero `.cpp` files which are in `monero-core-custom` must be included for `quickbc-core-cpp` - such as when their symbols are not required by any code called by this project. See `CMakeLists.txt` for a list of files required for compilation.
 
 * If you only want to call the C++ directly without using `serial_bridge_index` (described below), then that file-pair does not need to be included in your build. (See mymonero-app-ios link)
 

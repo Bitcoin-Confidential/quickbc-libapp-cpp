@@ -45,7 +45,7 @@ include_directories("src")
 include_directories("test")
 include_directories("src/contrib")
 
-set(MYMONERO_CORE_CPP "src/mymonero-core-cpp")
+set(MYMONERO_CORE_CPP "src/quickbc-core-cpp")
 set(MYMONERO_CORE_CPP_SRC "${MYMONERO_CORE_CPP}/src")
 include_directories("${MYMONERO_CORE_CPP}/src")
 #
